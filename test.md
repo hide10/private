@@ -16,3 +16,9 @@ Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AM
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
+
+## 2020/08/23 21:56
+
+完全な思いつきだが、Ingress の [IntelMap](https://intel.ingress.com/intel) からデータを取得して解析するようなプログラムを作ってみたい。
+取りあえずは特定地点のPortallistを取得して整形して表示かな。
+ログインが必要なのがハードル高そうだけどやってみよう。
