@@ -22,3 +22,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 完全な思いつきだが、Ingress の [IntelMap](https://intel.ingress.com/intel) からデータを取得して解析するようなプログラムを作ってみたい。
 取りあえずは特定地点のPortallistを取得して整形して表示かな。
 ログインが必要なのがハードル高そうだけどやってみよう。
+
+## 2020/08/28 22:22
+
+Pythonの静的解析、少し調べて [Flake8](https://flake8.pycqa.org/en/latest/) と言うのを使ってみた。
+pipで入れてVS Codeの連携オプションを有効にするとエディタのバッググラウンドで自動で解析してくれて便利。
+やはりメインストリームの言語だと道がととのっていて便利なことが多い。
