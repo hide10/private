@@ -28,3 +28,16 @@ Type "help", "copyright", "credits" or "license" for more information.
 Pythonの静的解析、少し調べて [Flake8](https://flake8.pycqa.org/en/latest/) と言うのを使ってみた。
 pipで入れてVS Codeの連携オプションを有効にするとエディタのバッググラウンドで自動で解析してくれて便利。
 やはりメインストリームの言語だと道がととのっていて便利なことが多い。
+
+## 2020/09/06 17:27
+
+しばらく間が開いた。
+[パーフェクトPython](https://gihyo.jp/book/2020/978-4-297-11223-3)という書籍を買ったので読みながら勉強。
+差分抽出など標準で入っているのは素直にすごいなと感心する。
+
+```python
+>>> store1 = {7,9,2}
+>>> store2={18,22,3,7,12,9}
+>>> store1.difference(store2)
+{2}
+```
